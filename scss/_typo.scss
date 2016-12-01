@@ -1,0 +1,33 @@
+$black: #FFFFFF;
+$yellow: #FFF056;
+$light-grey: #DFE2DB;
+$dark-grey:#191919;
+$trasp-grey:rgba(25, 25, 25, 0.88);
+
+h2 {
+  color: $dark-grey;
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 2em;
+}
+
+hr {
+  height: .2em;
+  width: 6em;
+  color: $yellow;
+  background-color: $yellow;
+  margin-left: 0;
+  padding-left: 0;
+  &.our-dogs{
+    height: .4em;
+    width: 21em;
+  }
+}
+
+h3 {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: bold;
+  color:$dark-grey;
+  padding-bottom: .5em;
+}

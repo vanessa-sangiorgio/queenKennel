@@ -1,0 +1,43 @@
+.navbar {
+  border-radius: 0;
+  background-color: $trasp-grey;
+  opacity: 70%;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+.fa-paw{
+  padding-top:.3em;
+  padding-left: .4em;
+  color: $light-grey;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  left:35em;
+}
+
+a {
+  font-size: 1.2em;
+  color: $light-grey;
+  &:hover{
+    font-size: 1.4em;
+    color:white;
+    background-color: red;
+}
+
+}
+
+.dropdown-menu {
+  background-color:  $trasp-grey;
+  a{
+    color:white;
+    &:hover{
+
+    }
+  }
+}
+}

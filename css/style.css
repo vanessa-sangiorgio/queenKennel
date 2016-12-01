@@ -1,0 +1,149 @@
+h2 {
+  color: #191919;
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 2em;
+}
+
+hr {
+  height: .2em;
+  width: 6em;
+  color: #FFF056;
+  background-color: #FFF056;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+hr.our-dogs {
+  height: .4em;
+  width: 21em;
+}
+
+h3 {
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: bold;
+  color: #191919;
+  padding-bottom: .5em;
+}
+
+.navbar {
+  border-radius: 0;
+  background-color: rgba(25, 25, 25, 0.88);
+  opacity: 70%;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar .fa-paw {
+  padding-top: .3em;
+  padding-left: .4em;
+  color: #DFE2DB;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  left: 35em;
+}
+
+.navbar a {
+  font-size: 1.2em;
+  color: #DFE2DB;
+}
+
+.navbar a:hover {
+  font-size: 1.4em;
+  color: white;
+  background-color: red;
+}
+
+.navbar .dropdown-menu {
+  background-color: rgba(25, 25, 25, 0.88);
+}
+
+.navbar .dropdown-menu a {
+  color: white;
+}
+
+.heading {
+  background-color: rgba(25, 25, 25, 0.72);
+  color: #1d1b19;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.heading h1 {
+  padding-left: .5em;
+  padding-right: .5em;
+  color: #DFE2DB;
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 3em;
+}
+
+.big-photo {
+  padding: 0;
+  margin: 0;
+}
+
+.whatIdo .col-md-6 {
+  margin-top: 3%;
+}
+
+.whatIdo h4 {
+  width: 80%;
+}
+
+.exhibition .col-md-4 {
+  padding-right: 5%;
+}
+
+.breed {
+  padding-top: 2%;
+  margin-top: 3%;
+}
+
+.breed .col-md-4 {
+  padding-left: 5%;
+}
+
+.breed img {
+  margin-left: 12%;
+}
+
+.images {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.images img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.images .col-md-3 {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer {
+  background-color: #191919;
+  color: #DFE2DB;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
