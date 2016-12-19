@@ -39,7 +39,11 @@ h3 {
 .navbar .fa-paw {
   padding-top: .3em;
   padding-left: .4em;
-  color: #DFE2DB;
+  color: #FFF056;
+}
+
+.navbar .navbar-nav {
+  margin-left: 7em;
 }
 
 .navbar ul {
@@ -137,8 +141,62 @@ h3 {
   padding-left: 0;
 }
 
+.images .col-md-3 p {
+  color: #DFE2DB;
+  background: rgba(25, 25, 25, 0.88);
+  width: 40%;
+  height: 2em;
+  font-size: 30px;
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  padding: 3%;
+}
+
 .footer {
   background-color: #191919;
+  color: #DFE2DB;
+  height: 30em;
+}
+
+.footer .first {
+  height: 90%;
+}
+
+.footer .connect, .footer .dogs, .footer .second, .footer .place {
+  top: 3em;
+  padding: 2%;
+}
+
+.footer .connect p, .footer .dogs p, .footer .second p, .footer .place p {
+  padding-left: 3%;
+  font-size: 16px;
+}
+
+.footer .connect p i, .footer .dogs p i, .footer .second p i, .footer .place p i {
+  color: #FFF056;
+}
+
+.footer .connect h4, .footer .dogs h4, .footer .second h4, .footer .place h4 {
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+.footer .dogs a, .footer .second a {
+  color: #DFE2DB;
+}
+
+.footer .place {
+  top: 2em;
+  color: #DFE2DB;
+}
+
+.footer .place img {
+  padding-left: 1em;
+}
+
+.footer .second {
+  height: 10%;
   color: #DFE2DB;
 }
 
@@ -146,4 +204,110 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.male-first .col-md-12 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.male-first .col-md-12 hr {
+  height: .5em;
+  width: 20em;
+}
+
+.male-first .title {
+  height: 20%;
+}
+
+.male-first .first-section {
+  height: 80%;
+}
+
+.male-first .first-section .col-md-6 {
+  padding-left: 4.5em;
+  padding-top: 5em;
+}
+
+.description .row {
+  color: #191919;
+  margin-top: 4em;
+}
+
+.description .row p {
+  font-size: 1.5em;
+}
+
+.description .odd .col-md-8 {
+  padding-left: 0;
+}
+
+.description .pair .col-md-8 {
+  padding-left: 9em;
+}
+
+.description .last {
+  margin-bottom: 4em;
+}
+
+.central {
+  background: url(../images/exhibition.png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 49em;
+  width: 100%;
+}
+
+.central .slider {
+  margin: 8em;
+}
+
+.central .slider h3 {
+  color: #191919;
+}
+
+.central .slider p {
+  color: #191919;
+  font-size: 28px;
+}
+
+.central .slider i {
+  color: #FFF056;
+  padding-left: 5em;
+}
+
+.about {
+  color: #191919;
+  font-size: 20px;
+  margin-bottom: 3em;
+}
+
+.about hr {
+  height: .5em;
+  width: 8em;
+}
+
+.about .col-md-6 {
+  margin-top: 3em;
+}
+
+.about .col-md-6 h2 {
+  line-height: 1em;
+}
+
+.about .col-md-6 img {
+  margin-top: 4em;
+  margin-left: 6em;
+}
+
+.about .col-md-6 .odd {
+  margin-top: 3em;
+}
+
+.about .col-md-6 .pair {
+  margin-left: 2em;
+  margin-top: 3em;
 }
