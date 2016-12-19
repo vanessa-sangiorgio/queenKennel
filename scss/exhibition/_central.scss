@@ -1,0 +1,25 @@
+.central {
+  background: url(../images/exhibition.png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 49em;
+  width: 100%;
+  .slider{
+
+    margin: 8em;
+    h3{
+    color:$dark-grey;
+    }
+    p{
+    color:$dark-grey;
+    font-size: 28px;
+  }
+  i{
+    color:$yellow;
+    padding-left: 5em;
+  }
+  }
+ }
