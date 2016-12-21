@@ -1,0 +1,7 @@
+.breedContainer {
+  background-color: pink;
+}
+
+.breedContainer .big-photo {
+  padding-bottom: 2em;
+}

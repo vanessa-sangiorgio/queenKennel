@@ -1,3 +1,7 @@
+h1, h2, h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
 h2 {
   color: #191919;
   font-weight: bold;
@@ -25,6 +29,27 @@ h3 {
   font-weight: bold;
   color: #191919;
   padding-bottom: .5em;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-inverse {
+  border-color: transparent;
 }
 
 .navbar {
@@ -122,26 +147,37 @@ h3 {
   margin-left: 12%;
 }
 
-.images {
+.our-dogs h2 {
+  margin-left: 1em;
+}
+
+.our-dogs hr {
+  margin-left: 4em;
+  width: 15em;
+  height: .3em;
+}
+
+.our-dogs .images {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.images img {
+.our-dogs .images img {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.images .col-md-3 {
+.our-dogs .images .col-md-3 {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
-.images .col-md-3 p {
+.our-dogs .images .col-md-3 p {
+  font-family: 'Permanent Marker', cursive;
   color: #DFE2DB;
   background: rgba(25, 25, 25, 0.88);
   width: 40%;
@@ -156,7 +192,12 @@ h3 {
 .footer {
   background-color: #191919;
   color: #DFE2DB;
-  height: 30em;
+  height: auto;
+}
+
+.footer hr {
+  line-height: .5px;
+  margin-top: .5px;
 }
 
 .footer .first {
@@ -198,6 +239,10 @@ h3 {
 .footer .second {
   height: 10%;
   color: #DFE2DB;
+}
+
+.footer h4 {
+  font-family: 'Permanent Marker', cursive;
 }
 
 body {
@@ -266,11 +311,11 @@ body {
 }
 
 .central .slider h3 {
-  color: #191919;
+  color: #DFE2DB;
 }
 
 .central .slider p {
-  color: #191919;
+  color: #DFE2DB;
   font-size: 28px;
 }
 
@@ -310,4 +355,57 @@ body {
 .about .col-md-6 .pair {
   margin-left: 2em;
   margin-top: 3em;
+}
+
+.big-container .row h2 {
+  margin-top: 1em;
+}
+
+.big-container .row hr {
+  width: 40%;
+  height: .3em;
+}
+
+.big-container .other-container {
+  margin-top: 3.5em;
+}
+
+.big-container .col-md-4 {
+  padding-left: 3em;
+}
+
+.big-container .col-md-4 img {
+  border: 0;
+  margin: 0;
+}
+
+.big-container .col-md-4 .nameDog {
+  color: #DFE2DB;
+  font-size: 2em;
+  font-weight: bold;
+  position: relative;
+  top: -4em;
+  left: 1em;
+  background-color: rgba(25, 25, 25, 0.88);
+  width: 10em;
+  padding: .3em;
+}
+
+.breedContainer {
+  padding-top: 4em;
+}
+
+.breedContainer .big-photo {
+  padding-top: 2em;
+  margin-left: 3em;
+  padding-bottom: 8em;
+}
+
+.breedContainer .col-md-4 {
+  color: #191919;
+  padding-bottom: 2em;
+}
+
+.breedContainer .secondRow {
+  padding-bottom: 6em;
 }
