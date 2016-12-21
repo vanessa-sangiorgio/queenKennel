@@ -1,0 +1,35 @@
+.big-container {
+
+.row{
+h2{
+  margin-top: 1em;
+}
+ hr {
+      width: 40%;
+      height: .3em;
+  }
+}
+  .other-container{
+    margin-top: 3.5em;
+    
+  }
+ .col-md-4{
+  padding-left: 3em;
+
+   img{
+     border: 0;
+     margin: 0;
+   }
+   .nameDog{
+     color:$light-grey;
+     font-size: 2em;
+     font-weight: bold;
+     position: relative;
+     top:-4em;
+     left: 1em;
+     background-color: $trasp-grey;
+     width: 10em;
+     padding: .3em;
+   }
+ }
+}

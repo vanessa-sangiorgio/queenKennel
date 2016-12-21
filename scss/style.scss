@@ -1,12 +1,14 @@
-@import 'typo';
-@import 'navbar';
+@import '_typo';
+@import '_navbar';
 @import 'home/_big-photo';
 @import 'home/_whatIdo';
 @import 'home/_second-section';
 @import 'home/_our-dogs';
-@import 'footer';
+@import '_footer';
 @import 'home/_body';
 @import 'male/_first-section';
 @import 'male/_dog-description';
 @import 'exhibition/_central';
 @import 'about/_about';
+@import 'retired/_retired';
+@import 'breedByUs/_breedByUs';

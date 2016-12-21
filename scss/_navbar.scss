@@ -1,3 +1,6 @@
+.navbar-inverse{
+  border-color: transparent;
+}
 .navbar {
   border-radius: 0;
   background-color: $trasp-grey;
@@ -5,6 +8,7 @@
   position: fixed;
   z-index: 2;
   width: 100%;
+
 .fa-paw{
   padding-top:.3em;
   padding-left: .4em;

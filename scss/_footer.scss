@@ -1,0 +1,56 @@
+.footer {
+  background-color: $dark-grey;
+  color:$light-grey;
+  height: auto;
+hr {
+  line-height: .5px;
+  margin-top: .5px;
+
+}
+.first{
+  height: 90%;
+}
+    .connect{
+      top:3em;
+      padding: 2%;
+
+      p {
+        padding-left: 3%;
+        font-size: 16px;
+        i{
+          color:$yellow;
+        }
+      }
+      h4 {
+        font-size: 20px;
+        padding-bottom: 3%;
+      }
+
+    }
+    .dogs {
+      @extend .connect;
+      a {
+        color: $light-grey;
+      }
+    }
+    .place {
+      @extend .connect;
+      top:2em;
+      color: $light-grey;
+
+    img{
+    padding-left: 1em;
+    }
+
+    }
+    .second{
+      @extend .dogs;
+      height: 10%;
+      color:$light-grey;
+
+    }
+    h4{
+      font-family: 'Permanent Marker', cursive;
+
+    }
+}

@@ -3,6 +3,10 @@ $yellow: #FFF056;
 $light-grey: #DFE2DB;
 $dark-grey:#191919;
 $trasp-grey:rgba(25, 25, 25, 0.88);
+h1, h2 , h3{
+  font-family: 'Permanent Marker', cursive;
+}
+
 
 h2 {
   color: $dark-grey;
@@ -30,4 +34,18 @@ h3 {
   font-weight: bold;
   color:$dark-grey;
   padding-bottom: .5em;
+}
+h4{
+  font-weight:200;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color:inherit;
 }

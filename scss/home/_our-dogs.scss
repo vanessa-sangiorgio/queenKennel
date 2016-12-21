@@ -1,3 +1,12 @@
+.our-dogs{
+  h2{
+    margin-left: 1em;
+  }
+  hr{
+    margin-left: 4em;
+    width: 15em;
+    height: .3em;
+  }
 .images {
   margin: 0;
   padding: 0;
@@ -14,6 +23,7 @@
    padding-right: 0;
    padding-left: 0;
    p{
+     font-family: 'Permanent Marker', cursive;
      color: $light-grey;
      background: $trasp-grey;
      width: 40%;
@@ -26,4 +36,5 @@
    }
 
  }
+}
 }
